@@ -136,14 +136,6 @@ Ao completar o terceiro nível (todas as moedas coletadas + saída alcançada), 
 
 ---
 
-## Disciplina
-
-Introdução a Sistemas Computacionais.
-Instituto de Ciências Matemáticas e de Computação – ICMC
-Universidade de São Paulo – USP
-
----
-
 ## Autores
 
 João Pedro Correia
