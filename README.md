@@ -1,21 +1,12 @@
-# The Hardest Game (Assembly)
+# The Worlds Hardest Game (Assembly)
 
 Projeto desenvolvido para a disciplina *SSC0955 - Introdução a Sistemas Computacionais*, do Instituto de Ciências Matemáticas e de Computação (ICMC-USP).
 
 ## Sobre o Projeto
 
-O *The Hardest Game* é um jogo de labirinto em Assembly, inspirado no clássico *World's Hardest Game*, desenvolvido para o simulador utilizado na disciplina. O jogador controla um quadrado que precisa atravessar labirintos coletando todas as moedas do cenário, sem tocar nos obstáculos que se movem pelo caminho, até alcançar a saída.
+O *The Worlds Hardest Game* é um jogo de labirinto em Assembly, inspirado no clássico *World's Hardest Game*, desenvolvido para o simulador utilizado na disciplina.
 
 O objetivo é limpar os três níveis do jogo: coletar todas as moedas de cada fase e chegar até o ponto de saída, desviando dos obstáculos, que encerram a partida no primeiro contato.
-
-O projeto foi desenvolvido com foco no uso de:
-
-* Manipulação de memória;
-* Controle de fluxo;
-* Entrada de teclado;
-* Renderização gráfica baseada em caracteres e em pixel art (char + cor);
-* Estruturas de repetição e decisão em Assembly;
-* Gerenciamento de estados do jogo.
 
 ---
 
@@ -77,14 +68,6 @@ Antes de cada fase, é exibida uma tela de introdução em pixel art com o desen
 | `J`     | Ponto de saída / vitória da fase                              |
 | ` `     | Caminho livre                                                 |
 
-### Fases
-
-| Nível | Nome        | Obstáculos |
-| ----- | ----------- | ---------- |
-| 1     | Labirinto   | 8          |
-| 2     | Cruzamento  | 12         |
-| 3     | Caos        | 12         |
-
 ---
 
 ## Estrutura do Código
@@ -118,9 +101,9 @@ Executa continuamente:
 * Verificação de vitória da fase;
 * Atualização da tela.
 
-### 4. Skins dos Personagens
+### 4. Gráficos
 
-Jogador, obstáculos e moedas são desenhados com sprites próprios (não apenas caracteres ASCII simples): cada um combina um glifo customizado no `charmap.mif` com uma cor, através da fórmula `valor = charcode + cor*128` usada pelo `outchar` do simulador.
+Jogador, obstáculos e moedas são desenhados com sprites próprios (não apenas caracteres ASCII simples): cada um combina um caracter customizado no `charmap.mif` com uma cor, através da fórmula `valor = charcode + cor*128` usada pelo `outchar` do simulador.
 
 ### 5. Sistema de Pontuação/Progresso
 
@@ -150,12 +133,12 @@ Ao completar o terceiro nível (todas as moedas coletadas + saída alcançada), 
 * Assembly do simulador da disciplina SSC0955
 * Simulador do Prof. Simões
 * `charmap.mif` customizado para os sprites do jogo
-* Manipulação direta de memória, registradores e vídeo por caractere
 
 ---
 
 ## Disciplina
 
+Introdução a Sistemas Computacionais.
 Instituto de Ciências Matemáticas e de Computação – ICMC
 Universidade de São Paulo – USP
 
@@ -163,4 +146,5 @@ Universidade de São Paulo – USP
 
 ## Autores
 
-Desenvolvido como projeto acadêmico para a disciplina SSC0955 - Introdução a Sistemas Computacionais.
+João Pedro Correia
+Mauricio Adrian Sagarnaga Arene
