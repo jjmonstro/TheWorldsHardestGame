@@ -136,7 +136,7 @@ Ao completar o terceiro nível (todas as moedas coletadas + saída alcançada), 
 
 ---
 
-## Video esplicativo
+## Vídeo explicativo
 https://youtu.be/gfJBV7cvThY
 
 ---
